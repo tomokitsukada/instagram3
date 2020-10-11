@@ -61,6 +61,9 @@ class CommentViewController: UIViewController {
             "comment": commentresult
             ] as [String : Any]
         postRef.updateData(postDic)
+        
+        self.dismiss(animated: true, completion: nil)
+        
     }
     
     
